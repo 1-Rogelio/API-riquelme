@@ -1,0 +1,29 @@
+.navegation ul{
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+    display: flex; /* Flexbox para alinear elementos en fila */
+    font-size:22px;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navegation li {
+    margin: 0 10px; /* Opcional: margen entre los elementos */
+  }
+  
+  .navegation a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  .navegation a:hover {
+    color: aqua; /* Color al pasar el ratón por encima */
+  }
+
+.navegation{
+    border-radius: 22rem;
+    background-position-x: center;
+    background-color: rgb(192, 43, 226);
+    box-shadow: 0 0 5px #fc036b, 0 0 10px #fc036b, 0 0 20px #fc036b;
+}

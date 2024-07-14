@@ -1,0 +1,29 @@
+@font-face {
+    font-family: rickymorty;
+    src: url(../Fonts/get_schwifty.ttf);
+}
+
+.title{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-family: rickymorty;
+    
+    color: #7317c4;
+    text-shadow:
+    0 0 5px #d25be7,
+    0 0 10px #d25be7,
+    0 0 20px #d25be7,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    height: 4.5rem;
+}
+
+body{
+    background-image: url(../images/rick-y-morty-arte-universo.jpg);
+    
+    background-size: 100%;
+}

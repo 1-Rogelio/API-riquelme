@@ -1,0 +1,51 @@
+.imagenes{
+    width: 19rem;
+    height: 20rem;
+    justify-content: center;
+    border-radius: 12px
+}
+
+.cards{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.all_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards_one{
+    border-radius: 12px;
+    border: 2px solid black;
+    background: rgb(120, 166, 236);
+    text-align: center;
+}
+
+.pCards{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 1px;
+}
+
+.status_indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.status-alive {
+    background-color: green;
+}
+
+.status-dead {
+    background-color: red;
+}
+
+.status-unknown {
+    background-color: rgb(78, 75, 75);
+}

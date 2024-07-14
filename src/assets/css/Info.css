@@ -1,0 +1,120 @@
+.container_all {
+    width: 90%;
+    max-width: 1200px;
+    height: 31rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto;
+    background: lightseagreen;
+    border: 2px solid #f3f3f7;
+    box-shadow: 0 0 5px #40d4cb, 0 0 10px #40d4cb, 0 0 20px #40d4cb;
+    border-radius: 2rem;
+}
+
+.title_present {
+    text-align: center;
+    color: #03fcd2;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 5px #9803fc, 0 0 10px #9803fc, 0 0 20px #9803fc;
+    margin-bottom: 20px;
+}
+
+.p_presentation {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.perfil_image {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.icons_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.icon_image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid #03fcd2;
+    box-shadow: 0 0 5px #0362fc, 0 0 10px #0362fc, 0 0 20px #0362fc;
+    background-size: cover;
+    transition: transform 0.5s, box-shadow 0.5s;
+    background-color: #2c72e2;
+    margin-top: -20px;
+}
+
+.icon_image:hover {
+    transform: scale(1.1) translateY(-10px);
+    border-radius: 25px;
+    border: 2px solid aqua;
+}
+
+.title_contact {
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 5px #9803fc, 0 0 10px #9803fc, 0 0 20px #9803fc;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .container_all {
+        padding: 40px;
+    }
+
+    .title_present {
+        font-size: 2.5rem;
+    }
+
+    .p_presentation {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .perfil_image {
+        width: 20%;
+        max-width: 300px;
+    }
+
+    .icons_redes {
+        justify-content: center;
+    }
+
+    .title_contact {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title_present {
+        font-size: 2.5rem;
+    }
+
+    .p_presentation {
+        font-size: 1.3rem;
+    }
+
+    .title_contact {
+        font-size: 1.5rem;
+    }
+}
