@@ -4,6 +4,7 @@
     display: flex; /* Flexbox para alinear elementos en fila */
     font-size:22px;
     justify-content: center;
+    justify-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -15,15 +16,21 @@
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: white; /* Color del texto */
     padding: 10px; /* Espaciado interno */
+    transition: 1s;
   }
   
   .navegation a:hover {
     color: aqua; /* Color al pasar el ratón por encima */
+    text-decoration: 2px underline #ffffff;
   }
 
 .navegation{
-    border-radius: 22rem;
-    background-position-x: center;
-    background-color: rgb(192, 43, 226);
-    box-shadow: 0 0 5px #fc036b, 0 0 10px #fc036b, 0 0 20px #fc036b;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: row; 
+  border-radius: 22rem;
+  background-position-x: center;
+  background-color: rgb(192, 43, 226);
+  box-shadow: 0 0 5px #fc036b, 0 0 10px #fc036b, 0 0 20px #fc036b;
 }

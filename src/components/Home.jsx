@@ -1,15 +1,23 @@
 import React from 'react';
 
+import '../assets/css/Home.css'
+
 import Header from './Header'
-import Nav from './Nav';
 import Body from './Body';
 
 function Home() {
   return (
     <>
-    <Header/>
-    <Nav/>
-    <Body/>
+    <div className="container_home">
+      <div>
+        <Header/>
+      </div>
+      
+      <div className='body_home'>
+        <Body/>
+      </div>
+
+    </div>
     </>
   );
 }

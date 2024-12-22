@@ -10,6 +10,7 @@ function Nav() {
     <>
 
 |   <div className='navegation'>
+      <div>
       <ul>
         <NavLink to="/">
           <li>Inicio</li>
@@ -19,6 +20,7 @@ function Nav() {
           <li>Sobre mí</li>
         </NavLink>
       </ul>
+      </div>
     </div>
 
     </>

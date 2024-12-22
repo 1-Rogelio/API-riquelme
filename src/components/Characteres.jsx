@@ -37,7 +37,7 @@ function Characteres() {
     return (
         <>
             <Header />
-            <Nav />
+            
             <div className="row row-cols-1 row-cols-md-3 g-4 all_cards">
                 {characters.map(character => (
                     <div className="col cards" key={character.id}>

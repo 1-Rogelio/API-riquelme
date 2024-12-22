@@ -27,3 +27,10 @@ body{
     
     background-size: 100%;
 }
+
+.container_heider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
